@@ -1,0 +1,35 @@
+body{
+    background:linear-gradient(to right, rgba(238, 200, 177, 0.5), rgba(238, 200, 177, 0.5)),
+}
+nav{
+    background-color:#f3e9db;
+    border-radius: 10px 10px 10px 10px;
+    height: 80px;
+    width: 100%;
+    position: static;
+}
+nav li:hover{
+    background-color: #f8eff7;
+    transition: .3s;
+
+}
+
+ul{
+    margin: 10;
+    text-align: center;
+}
+li{
+    height: 50px;
+    display: inline-block;
+    font-size: 30px;
+    color: 0000;
+    line-height: 60px;
+    padding: 0 40px;
+    margin-top: 0%;
+}
+.button{
+    border-radius: 20%;
+    background-color: white;
+    position: relative;
+    
+}
